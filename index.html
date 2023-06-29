@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Test For Symptoms Of Dyslexia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Self Test For Symptoms Of Dyslexia</h1>
+
+    <div id="infoSection">
+        <ol>
+            <li>Dyslexia, also known as reading disorder, is a disorder characterized by reading below the expected level for their age.</li>
+            <li>It is a common condition that makes it hard to work with language. </li>
+            <li>This test is designed to determine whether you demonstrate symptoms similar to those of dyslexia in adults.</li>
+            <li>Answer the questions in yes(y) or no(n) and the self test will deterime whether you demonstrate symptoms similar to those of dyslexia or not</li>
+            <li>There are total 13 Question that you have to answer.</li>
+            <li>To exit the programe enter 'E/e' </li>
+        </ol>
+    </div>
+    <div class="questionsSection">
+        <p>Q1. Do you need to read a sentence or paragraph three or four times before you "get it"?</p>
+            <input type="radio" class="radioButton" name="q1" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q1" value="No"/> No 
+        <p id="q2">Q2. Do you avoid situations where you'll have to read out loud?</p>
+            <input type="radio" class="radioButton" name="q2" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q2" value="No"/> No 
+        <p id="q3">Q3. Do you mix up letters or forget them entirely when writing</p>
+            <input type="radio" class="radioButton" name="q3" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q3" value="No"/> No 
+        <p id="q4">Q4. Do you misspell common words - misspelling them a different way every time?</p>
+            <input type="radio" class="radioButton" name="q4" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q4" value="No"/> No 
+        <p id="q5">Q5. Do you find yourself reading slower than most people you know?</p>
+            <input type="radio" class="radioButton" name="q5" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q5" value="No"/> No 
+        <p id="q6">Q6. Do you avoid projects that involve a lot of reading?</p>
+            <input type="radio" class="radioButton" name="q6" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q6" value="No"/> No 
+        <p id="q7">Q7. Have you found yourself turning down promotions or opportunities for advancement in your career?</p>
+            <input type="radio" class="radioButton" name="q7" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q7" value="No"/> No 
+        <p id="q8">Q8. Do you struggle to pronounce long words out loud, even if you know them?</p>
+            <input type="radio" class="radioButton" name="q8" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q8" value="No"/> No 
+        <p id="q9">Q9. Are you accused of \"not listening\" because you can't summarize or recall details of a recent conversation? </p>
+            <input type="radio" class="radioButton" name="q9" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q9" value="No"/> No 
+        <p id="q10">Q10. Do you lose your place when reading, even if the topic is interesting to you?</p>
+            <input type="radio" class="radioButton" name="q10" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q10" value="No"/> No 
+        <p id="q11">Q11. Do you get lost when following directions, or confuse your left for your right?</p>
+            <input type="radio" class="radioButton" name="q11" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q11" value="No"/> No 
+        <p id="q12">Q12. Do you confuse or forget the names of common household objects - calling a fork a spoon, for instance?</p>
+            <input type="radio" class="radioButton" name="q12" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q12" value="No"/> No 
+        <p id="q13">Q13. Do you have very particular requirements for your favorite fonts, paper color, or other visuals while at work?</p>
+            <input type="radio" class="radioButton" name="q13" value="Yes"/> Yes    
+            <input type="radio" class="radioButton" name="q13" value="No"/> No 
+    </div>
+    <div>
+        <!-- <button id="doneButton" onclick="result()" disabled>Done</button> -->
+        <button onclick="result()">Done</button>
+    </div>
+    
+    <div id="message"></div>
+    
+</body>
+</html>

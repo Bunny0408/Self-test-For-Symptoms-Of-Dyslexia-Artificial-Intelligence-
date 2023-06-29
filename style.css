@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(187, 187, 187);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#infoSection {
+    text-align: center;
+    color: rgb(91, 89, 89);
+    margin: 20px;
+}
+
+ol {
+    display: inline;
+}
+
+.questionsSection {
+    margin-bottom: 30px;
+    margin-left: 27%;
+}
+
+.radioButton {
+    margin-left: 13%;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #594caf;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for small screens */
+    .questionsSection {
+        margin-left: 10%;
+    }
+
+    .radioButton {
+        margin-left: 5%;
+    }
+
+    button {
+        width: 150px;
+        margin-left: 35%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* Adjust styles for extra small screens */
+    .questionsSection {
+        margin-left: 5%;
+    }
+
+    .radioButton {
+        margin-left: 2%;
+    }
+
+    button {
+        width: 120px;
+        margin-left: 30%;
+    }
+}
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(187, 187, 187);
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#infoSection {
+    text-align: center;
+    color: rgb(91, 89, 89);
+}
+
+ol {
+    display: inline;
+}
+
+
+.questionsSection {
+    margin-bottom: 30px;
+    margin-left: 27%;
+}
+
+.radioButton {
+    margin-left: 13%;
+}
+
+
+
+
+
+
+button {
+    display: inline-block;
+    margin-left: 47%;
+    padding: 10px 20px;
+    background-color: #594caf;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* 
+button:disabled {
+    background-color: #afa0a0;
+    cursor: not-allowed;
+    color: black;
+} */
+
+#message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color:rgb(187, 187, 187);
+    border-radius: 5px;
+    text-align: center;
+}
+ */
